@@ -9,8 +9,9 @@
   font-family: "Merriweather", "Inter", serif;
 }
 header {
-  width: 1220px;
+  width: 1280px;
   height: 600px;
+  
   /* margin-right:100px;
     margin-left: 100px; */
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -19,6 +20,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-top: 30px;
 }
 .banner {
   margin: 0 auto;
