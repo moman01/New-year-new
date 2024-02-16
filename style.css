@@ -11,7 +11,7 @@
 header {
   width: 1280px;
   height: 600px;
-  
+
   /* margin-right:100px;
     margin-left: 100px; */
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -187,6 +187,126 @@ span {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.comming-soon {
+  width: 98vw;
+  height: 463px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.new-best {
+  width: 393px;
+}
+.offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.comming-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 16px;
+  padding-bottom: 18px;
+}
+.comming-pera {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.coming-img {
+  height: 300px;
+  width: 300px;
+  border: 5px solid red;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10px;
+}
+.coming-img img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.new {
+  padding-left: 100px;
+}
+.year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.new-pera {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.new img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.holiday {
+  width: 1068px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.fun {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.holiday h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.holi {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.holi-pera {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
 }
 
 .portfolio {
@@ -368,7 +488,7 @@ footer hr {
   padding-top: 20px;
   padding-left: 30px;
 }
-.l-caution{
+.l-caution {
   width: 80vw;
   padding-top: 35px;
   padding-bottom: 40px;
@@ -376,10 +496,10 @@ footer hr {
   justify-content: space-between;
   margin: 0 auto;
 }
-.l-caution p{
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
+.l-caution p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
 }
